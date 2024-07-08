@@ -2,15 +2,15 @@
 ## 概要
 この研究では、検索された手話単語の映像を含む手話文章の動画をデータベースから検索するシステムの開発を目的としています。
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d275156b-155e-4757-8fb2-4b659528dd87/1ee49ff1-d6b0-4685-abd0-1d5ccb4992c3/Untitled.png)
+![手話動画類似検索1](https://github.com/YashyHoby/handMotion-similar-search/assets/145910837/3792cbb5-bf4e-459d-869c-5504ab8ad631)
 
 このシステムにより、辞書に登録されていない単語についても、意味解析を補助することができます。
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d275156b-155e-4757-8fb2-4b659528dd87/137a4136-1681-48dc-9dd0-ebc8030b6ad7/Untitled.png)
+![手話動画類似検索2](https://github.com/YashyHoby/handMotion-similar-search/assets/145910837/9f74438f-545b-4ef5-bfee-af6154492f08)
 
 具体的には、関節情報から抽出した特徴量を用いて、2つの手話映像の類似度を評価します。
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/d275156b-155e-4757-8fb2-4b659528dd87/7e834c89-725a-4117-a261-1c5c44b35dd3/02c6bae8-8e6d-4931-b4d3-7ef32b471727.png)
+![手話動画類似検索3](https://github.com/YashyHoby/handMotion-similar-search/assets/145910837/22073f82-3593-48a9-9bfb-43b9ef73d9b7)
 
 ## コードの概要
 <pre>
