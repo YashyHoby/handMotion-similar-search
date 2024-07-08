@@ -50,10 +50,10 @@ project
 
 ## 実験の流れ
 <pre>
-1. **p1_joint_from_video.py**を実行。動画フォルダと保存先フォルダ（**../data/handData/--/1_joint**）を指定し、関節位置データを作成。
-2. **p2_smooth_joint.py**を実行。関節位置データフォルダと保存先フォルダ（**../data/handData/--/d3_smoothed_joint**）を選択し、平滑化済データを作成。
-3. **p3_feature_from_joint.py**を実行。平滑化済データフォルダと保存先フォルダ（**../data/handData/--/d4_feature**）を選択し、手話特徴データを作成。
-4. **p4_search_shuwa.py**を実行。検索手話と被検索手話の手話特徴データを選択し、時系列類似度推移データを作成・保存（**./result**）。
+1. <b>p1_joint_from_video.py</b>を実行。動画フォルダと保存先フォルダ（<b>../data/handData/--/1_joint</b>）を指定し、関節位置データを作成。
+2. <b>p2_smooth_joint.py</b>を実行。関節位置データフォルダと保存先フォルダ（<b>../data/handData/--/d3_smoothed_joint</b>）を選択し、平滑化済データを作成。
+3. <b>p3_feature_from_joint.py</b>を実行。平滑化済データフォルダと保存先フォルダ（<b>../data/handData/--/d4_feature</b>）を選択し、手話特徴データを作成。
+4. <b>p4_search_shuwa.py</b>を実行。検索手話と被検索手話の手話特徴データを選択し、時系列類似度推移データを作成・保存（<b>./result</b>）。
 </pre>
 - **p2_smooth_joint.py**では、線形補完と平滑化を行っています。予備実験で取得した線形補完済データを**../data/handData/--/d2_complemented_joint**に保存しています
 - **handData**は検索手話を**key**、被検索手話を**tgt**として扱っています。
